@@ -41,21 +41,6 @@ class Teacher extends Person {
     }
 }
 
-// Creating a Person instance
-const person = new Person("John", 25);
-console.log(person.name);  // Output: John
-
-person.age = 30;  // Using the setter to change the age
-console.log(person.age);  // Output: 30
-
-// Creating a Student instance
-const student = new Student("John", 30);
-student.study();  // Output: Alice is studying
-
-// Creating a Teacher instance
-const teacher = new Teacher("John", 30);
-teacher.teach();  // Output: Bob is teaching
-
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
